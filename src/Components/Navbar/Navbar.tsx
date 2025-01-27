@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <Image src="/images/logo4.jpeg" width={25} height={25} alt={`hero image of concert`}/>
+        <a href="/"><Image src="/images/logo4.jpeg" width={25} height={25} alt={`hero image of concert`}/></a>
         {/*<a className="btn btn-ghost text-xl">Phantoms</a>*/}
       </div>
       <div className="navbar-end">

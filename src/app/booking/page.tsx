@@ -1,9 +1,12 @@
 "use client"
 import {talents} from "@/Utils/talent";
+import Navbar from "@/Components/Navbar/Navbar";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Booking() {
   return (
     <>
+      <Navbar />
       <h1 className="text-3xl font-semibold text-center">Talent To Book</h1>
       <div className="overflow-x-auto mt-10">
         <input type="text" placeholder="Search"/>
@@ -33,6 +36,7 @@ export default function Booking() {
           </tfoot>
         </table>
       </div>
+      <Footer />
     </>
   )
 }

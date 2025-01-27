@@ -1,13 +1,17 @@
+import Navbar from "@/Components/Navbar/Navbar";
+import Footer from "@/Components/Footer/Footer";
+
 export default function Home() {
   return (
     <>
+      <Navbar />
       <img src="/images/concert.jpeg"
              alt="hero"
            className="hero w-full"
       />
 
       <div className="flex justify-self-center my-6">
-        <button className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-4 px-6 rounded">Now Booking</button>
+        <a href="/booking" className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-4 px-6 rounded">Now Booking</a>
       </div>
 
       <section>
@@ -42,6 +46,7 @@ export default function Home() {
       <section className="h-36 text-slide mx-2">
         <p className="leading-6 text-center my-4">A globally recognized entertainment company that connects real music lovers with authentic and talented artists, creating unforgettable experiences and fostering long-term success for our clients.</p>
       </section>
+      <Footer />
     </>
   );
 }
