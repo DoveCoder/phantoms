@@ -1,8 +1,3 @@
-type Talent = {
-    name: string;
-    bid: number;
-}
-
 export const talents = [
     {name: "Pleasure P", bid: "12,500.00"},
     {name: "Ann Marie", bid: "15,000.00"},

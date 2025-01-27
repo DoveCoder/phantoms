@@ -1,6 +1,3 @@
-import Image from "next/image";
-import * as gsap from "gsap";
-
 export default function Home() {
   return (
     <>
@@ -17,7 +14,6 @@ export default function Home() {
         <div className="carousel rounded-box">
           <div className="carousel-item">
             <img
-
               src="/images/live-music-2219036_1280.jpg"
               className="h-96"
               alt="Burger" />

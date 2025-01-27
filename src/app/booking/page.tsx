@@ -1,16 +1,7 @@
 "use client"
 import {talents} from "@/Utils/talent";
-import {useState} from "react";
 
 export default function Booking() {
-  const [artists, setArtists] = useState(talents);
-
-  const filterTalent = (e) => {
-    e.preventDefault()
-    let value = e.target.value;
-    console.log(value)
-  }
-
   return (
     <>
       <h1 className="text-3xl font-semibold text-center">Talent To Book</h1>
@@ -25,7 +16,7 @@ export default function Booking() {
           </tr>
           </thead>
           <tbody className="text-xl">
-          {artists.map(talent => (
+          {talents.map(talent => (
             <tr key={`${talent.name} ${talent.bid}`}>
               <th className="text-xl">{talent.name}</th>
               <td className="text-xl">{talent.bid}</td>
