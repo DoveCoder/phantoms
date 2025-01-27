@@ -42,8 +42,6 @@ export default function Home() {
       <section className="h-36 text-slide mx-2">
         <p className="leading-6 text-center my-4">A globally recognized entertainment company that connects real music lovers with authentic and talented artists, creating unforgettable experiences and fostering long-term success for our clients.</p>
       </section>
-
-
     </>
   );
 }
