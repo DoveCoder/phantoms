@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -29,7 +30,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a href="/"><Image src="/images/logo4.jpeg" width={25} height={25} alt={`hero image of concert`}/></a>
+        <Link href="/"><Image src="/images/logo4.jpeg" width={25} height={25} alt={`hero image of concert`}/></Link>
         {/*<a className="btn btn-ghost text-xl">Phantoms</a>*/}
       </div>
       <div className="navbar-end">

@@ -1,5 +1,6 @@
 import Navbar from "@/Components/Navbar/Navbar";
 import Footer from "@/Components/Footer/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       />
 
       <div className="flex justify-self-center my-6">
-        <a href="/booking" className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-4 px-6 rounded">Now Booking</a>
+        <Link href="/booking" className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-4 px-6 rounded">Now Booking</Link>
       </div>
 
       <section>
